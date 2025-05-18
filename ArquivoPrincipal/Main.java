@@ -59,7 +59,7 @@ public class Main {
             System.out.println("Opção: ");
             opcao = scan.nextLine();
             
-            if (opcao.length() != 0 || (opcao.charAt(0) != '1' && opcao.charAt(0) != '2' && opcao.charAt(0) != '3' && opcao.charAt(0) != '4')) {
+            if (opcao.length() != 1 || (opcao.charAt(0) != '1' && opcao.charAt(0) != '2' && opcao.charAt(0) != '3' && opcao.charAt(0) != '4')) {
                 System.out.println("ERRO - A opção digitada não é válida!\n");
             } else {
                 return opcao.charAt(0);
@@ -76,7 +76,7 @@ public class Main {
             System.out.println("Opção: ");
             opcao = scan.nextLine();
             
-            if (opcao.length() != 0 || (opcao.charAt(0) != '1' && opcao.charAt(0) != '2' && opcao.charAt(0) != '3' && opcao.charAt(0) != '4') &&
+            if (opcao.length() != 1 || (opcao.charAt(0) != '1' && opcao.charAt(0) != '2' && opcao.charAt(0) != '3' && opcao.charAt(0) != '4') &&
                 opcao.charAt(0) != '5' && opcao.charAt(0) != '6') {
                 System.out.println("ERRO - A opção digitada não é válida!\n");
             } else {
@@ -94,7 +94,7 @@ public class Main {
             System.out.println("Opção: ");
             opcao = scan.nextLine();
             
-            if (opcao.length() != 0 || (opcao.charAt(0) != '1' && opcao.charAt(0) != '2' && opcao.charAt(0) != '3' && opcao.charAt(0) != '4' &&
+            if (opcao.length() != 1 || (opcao.charAt(0) != '1' && opcao.charAt(0) != '2' && opcao.charAt(0) != '3' && opcao.charAt(0) != '4' &&
                 opcao.charAt(0) != '5')) {
                 System.out.println("ERRO - A opção digitada não é válida!\n");
             } else {
@@ -111,7 +111,7 @@ public class Main {
             System.out.println("Opção: ");
             opcao = scan.nextLine();
             
-            if (opcao.length() != 0 || (opcao.charAt(0) != '1' && opcao.charAt(0) != '2' && opcao.charAt(0) != '3' && opcao.charAt(0) != '4' &&
+            if (opcao.length() != 1 || (opcao.charAt(0) != '1' && opcao.charAt(0) != '2' && opcao.charAt(0) != '3' && opcao.charAt(0) != '4' &&
                 opcao.charAt(0) != '5')) {
                 System.out.println("ERRO - A opção digitada não é válida!\n");
             } else {
